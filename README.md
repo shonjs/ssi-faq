@@ -1,5 +1,7 @@
 This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, queries/blockers that I faced during development. I have kept the answers from contributors in chat (minor edits for typos, later update or for better comprehension)
 
+## <ins> [ACA-py FAQs](./ACA-py.md) </ins>
+
 ## Indy
 
 **Where is private and public key stored? in wallet? not on ledger?**
