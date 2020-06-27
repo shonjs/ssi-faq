@@ -1,20 +1,9 @@
-This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, queries/blockers that I faced during development. I have kept the answers from contributors in chat (minor edits for typos, later update or for better comprehension)
+This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, information that I found useful, questions that are getting repeated, queries/blockers that I faced during development etc. I have kept the answers from contributors in chat (minor edits for typos, later update or for better comprehension)
 
-## <ins> [ACA-py FAQs](./ACA-py.md) </ins>
+
+## <ins> [Aries & ACA-py FAQs](./ACA-py.md) </ins>
 
 ## Indy
-
-**Where is private and public key stored? in wallet? not on ledger?**
-
-* All that you create or receive go in your wallet. Public DIDs that you create also go in the ledger. DIDs you receive from others may be on a ledger or not. DIDs from VC issuers will be on a ledger (public) and your agent may or may not store them.
-
-**What exactly is stored in Wallets?**
-
-* Indy wallets store: DIDs, the private keys associated with DIDs you create, other ledger transactions that you create (schema, credential definitions, revocation registries, revocation entries).
-
-***"No data is sent to the Blockchain. Ever. It is only used for DIDs, schema/credential metadata and revocation information."* - (@swcurran Rocketchat)  What do u mean by metadata?**
-
-* The "metadata" are the objects needed to prove and verify claims from credentials. That means in Indy -- schema, credentials definitions, RevRegs and RevEntries).
 
 **Can you please explain the credential verification flow, issuer-verifer-holder?**
 
@@ -32,4 +21,17 @@ This is a compilation of FAQs with answers, resources etc from various Hyperledg
 
 **Without having information about credentials (it isn't stored on ledger, only store in holder wallet), how will verifier confirms (verify) that these credentials are same as they were issued by issuer? I mean what if holder received credentials, changes later, how will verifer/issuer know that?**
 
-* https://github.com/hyperledger/indy-hipe/tree/master/text/0011-cred-revocation
+* [indy-hipe: 0011-cred-revocation](https://github.com/hyperledger/indy-hipe/tree/master/text/0011-cred-revocation)
+
+**Where is private and public key stored? in wallet? not on ledger?**
+
+* All that you create or receive go in your wallet. Public DIDs that you create also go in the ledger. DIDs you receive from others may be on a ledger or not. DIDs from VC issuers will be on a ledger (public) and your agent may or may not store them.
+
+**What exactly is stored in Wallets?**
+
+* Indy wallets store: DIDs, the private keys associated with DIDs you create, other ledger transactions that you create (schema, credential definitions, revocation registries, revocation entries).
+
+***"No data is sent to the Blockchain. Ever. It is only used for DIDs, schema/credential metadata and revocation information."* - (@swcurran Rocketchat)  What do u mean by metadata?**
+
+* The "metadata" are the objects needed to prove and verify claims from credentials. That means in Indy -- schema, credentials definitions, RevRegs and RevEntries).
+
