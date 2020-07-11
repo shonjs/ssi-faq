@@ -1,4 +1,4 @@
-This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, information that I found useful, questions that are getting repeated, queries/blockers that I faced during development etc. I have kept the answers from contributors in chat (minor edits for typos, later update or for better comprehension)
+This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, information that I found useful, questions that are getting repeated, queries/blockers that me and other community members have faced during development etc. I have mostly kept the resources/answers from aries/indy contributors/working groups as is (minor edits for typos, later update or for better context/comprehension)
 
 
 ## <ins> [Aries & ACA-py FAQs](./ACA-py.md) </ins>
