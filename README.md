@@ -1,9 +1,17 @@
+
 This is a compilation of FAQs with answers, resources etc from various Hyperledger chats, READMEs, information that I found useful, questions that are getting repeated, queries/blockers that me and other community members have faced during development etc. I have mostly kept the resources/answers from aries/indy contributors/working groups as is (minor edits for typos, later update or for better context/comprehension)
 
+Answers and questions are courtesy of contributions from Hyperledger community, the wonderful contributors to the SSI projects, various SIGs and Working Groups
 
-## <ins> [Aries & ACA-py FAQs](./ACA-py.md) </ins>
+## <ins> [Aries & ACA-py FAQs](./ACA-py.md) </>
 
 ## Indy
+
+**What is recorded on the Indy blockchain**
+
+* Only the information that needs to be public goes on the indy blockchain. ie public dids, schemas, definitions
+
+* [What goes on the ledger](https://www.evernym.com/wp-content/uploads/2017/07/What-Goes-On-The-Ledger.pdf)
 
 **Can you please explain the credential verification flow, issuer-verifer-holder?**
 
